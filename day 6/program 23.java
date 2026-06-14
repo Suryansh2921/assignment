@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class RecursiveSum {
+ class RecursiveSum {
     
     static int sumDigits(int num) {
         if (num == 0)
