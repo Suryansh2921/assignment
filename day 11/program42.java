@@ -1,9 +1,12 @@
 import java.util.Scanner;
 
-public class Sum {
-    
-    static int add(int a, int b) {
-        return a + b;
+public class Maximum {
+
+    static int max(int a, int b) {
+        if (a > b)
+            return a;
+        else
+            return b;
     }
 
     public static void main(String[] args) {
@@ -15,8 +18,8 @@ public class Sum {
         System.out.print("Enter second number: ");
         int b = sc.nextInt();
 
-        int result = add(a, b);
+        int result = max(a, b);
 
-        System.out.println("Sum = " + result);
+        System.out.println("Maximum = " + result);
     }
 }
