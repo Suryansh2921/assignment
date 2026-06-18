@@ -18,4 +18,4 @@ public class Power {
 
         System.out.println("Result = " + result);
     }
-}
+}+
